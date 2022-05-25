@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: configserver
+encrypt:
+  failOnError: false
+  keyStore:
+    location: classpath:test.keystore
+    password: 123456 # don't use a default in production
+    alias: test
+    secret: test123
+
